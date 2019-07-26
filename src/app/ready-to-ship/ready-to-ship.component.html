@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-sm-3">
+        <a style="color: #6bb3fd;font-size:18px;text-decoration: underline">Ready To Ship</a>
+            <div class="card"style="height:300px;color:#fff;">
+                    <div class="card-body">
+                  
+                    Potential Revenue: <h4 class="d-inline float-right h4Color">$47K</h4><br><br><br>
+                     Total Lines:<h4  class="d-inline float-right h4Color" >230</h4><br><br><br>
+                    Total Units:<h4  class="d-inline float-right h4Color">1,027</h4><br>
+                       
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm-8">
+        <ul style="text-align: center"><li><a href="">All</a></li>
+            <li><a href="">Top Customer</a></li>
+            <li><a href="">Will Call</a></li>
+            <li><a href="">Hold</a></li>
+        </ul>
+        <canvas baseChart height="100"
+                [datasets]="barChartData"
+                [labels]="mbarChartLabels"
+                [options]="barChartOptions"
+                [colors]="barChartColors"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"></canvas>
+                <h6 style="text-align: center;color:#fff">Backlog</h6>
+     </div>
+    <div class="col-sm-1">
+            <div class="card"style="height:300px;">
+                    <div class="card-body">
+                    <h3><a routerLink="/receiving" routerLinkActive="active">Receiving</a></h3>
+                    </div>
+                  </div>
+    </div>
+
+</div>

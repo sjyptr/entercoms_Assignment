@@ -1,0 +1,35 @@
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-balham-dark.css';
+ body{
+   /* background-image: url('assets/background.PNG');*/
+   background-color: #34383e !important;
+
+ }
+
+ ul {
+    font-size: 0;
+}
+
+ul li {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: underline;
+    color: #fff;
+}
+.card{
+    /* background-image: url('assets/card_background.PNG'); */
+    background-color:#2d2829 !important;
+    opacity: .5 !important;
+}
+hr{
+    height:2px;border:none;color:#554e4d;background-color:#554e4d;
+    margin-top: 0px;
+}
+.searchBox{
+    color: #fff;
+    height: 23px;
+    
+    float:right;background: black;
+    margin: 2px;
+}

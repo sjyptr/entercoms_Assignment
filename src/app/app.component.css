@@ -1,0 +1,11 @@
+hr{
+    height:2px;border:none;color:#554e4d;background-color:#554e4d;
+    margin-top: 0px;
+}
+.searchBox{
+    color: #fff;
+    height: 23px;
+    
+    float:right;background: black;
+    margin: 2px;
+}
